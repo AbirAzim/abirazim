@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- ==== Document Title ==== -->
-    <title>JD - Responsive Personal vCard / CV / Resume Template</title>
+    <title>BK</title>
     
     <!-- ==== Document Meta ==== -->
     <meta name="author" content="">
@@ -17,14 +17,17 @@
     <link rel="icon" href="favicon.png" type="image/png">
 
     <!-- ==== Google Font ==== -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Condensed:300,400,700">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     
     <!-- ==== Plugins Bundle ==== -->
     <link rel="stylesheet" href="css/plugins.min.css">
     
     <!-- ==== Main Stylesheet ==== -->
     <link rel="stylesheet" href="style.css">
-    
+    <!--====font awesome====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
     <!-- ==== Responsive Stylesheet ==== -->
     <link rel="stylesheet" href="css/responsive-style.css">
     
@@ -67,7 +70,7 @@
                         <a href="index.html" class="navbar-brand">
                             <span class="vc--parent">
                                 <span class="vc--child">
-                                    <img src="img/logo.png" alt="">
+                                    <h2 class="mb-0 text-primary">BK</h2>
                                 </span>
                             </span>
                         </a>
@@ -82,20 +85,7 @@
                             <li><a href="#services" data-trigger="scroll">Services</a></li>
                             <li><a href="#portfolio" data-trigger="scroll">Portfolio</a></li>
                             <li><a href="#skills" data-trigger="scroll">Skills</a></li>
-                            <li><a href="#blog" data-trigger="scroll">Blog</a></li>
                             <li><a href="#contact" data-trigger="scroll">Contact</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="index.html">Home Page</a></li>
-                                    <li><a href="blog.html">Blog Page</a></li>
-                                    <li><a href="blog-details.html">Blog Details Page</a></li>
-                                    <li><a href="contact.html">Contact Page</a></li>
-                                    <li><a href="404.html">404 Page</a></li>
-                                    <li><a href="coming-soon.html">Coming Soon Page</a></li>
-                                </ul>
-                            </li>
                         </ul>
                         <!-- Header Nav Links End -->
                     </div>
@@ -106,50 +96,58 @@
         <!-- Header Section End -->
 
         <!-- Banner Section Start -->
-        <section id="banner" class="banner--section" data-bg-parallax="img/banner-img/bg.jpg" data-overlay="0.8">
-            <div class="vc--parent">
-                <div class="vc--child">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <!-- Banner Content Start -->
-                                <div class="banner--content text-center pt--160 pb--100">
-                                    <div class="title text-uppercase">
-                                        <h2 class="h3 text-white"><span class="text-primary">Hello</span> I'm</h2>
+        <section id="banner" class="banner--section" data-bg-parallax="img/banner-img/bg.jpg" data-overlay="0.95">
+            <div class="section--video" >
+                <video autoplay muted loop >
+                    <source src="./img/portfolio vedio.mp4" type="video/mp4"/>
+                </video>
+                
+                <div class="vc--parent">
+                    <div class="vc--child">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <!-- Banner Content Start -->
+                                    <div class="banner--content text-center pt--160 pb--100">
+    
+                                        <div class="title text-uppercase">
+                                            <h2 class="h3 text-white"><span class="text-primary">Hello World,</span> I'm</h2>
+                                        </div>
+    
+                                        <div class="name text-uppercase">
+                                            <h3 class="h2 text-white">Abir Azim Badhon</h3>
+                                        </div>
+    
+                                        <div class="role fs--18 fw--700 text-white">
+                                            <p>Backend Developer</p>
+                                        </div>
+    
+                                        <div class="desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias ullam iure, libero assumenda mollitia, architecto voluptate, vel quasi voluptatibus, dolorum illum.</p>
+                                        </div>
+    
+                                        <div class="action">
+                                            <a href="#" class="btn btn-default">Hello Me</a>
+                                            <a href="#" class="btn btn-white">My Works</a>
+                                        </div>
                                     </div>
-
-                                    <div class="name text-uppercase">
-                                        <h3 class="h2 text-white">Jhon Doe</h3>
-                                    </div>
-
-                                    <div class="role fs--18 fw--700 text-white">
-                                        <p>Professional Web and Graphic Designer</p>
-                                    </div>
-
-                                    <div class="desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias ullam iure, libero assumenda mollitia, architecto voluptate, vel quasi voluptatibus, dolorum illum.</p>
-                                    </div>
-
-                                    <div class="action">
-                                        <a href="#" class="btn btn-default">Hire Me</a>
-                                        <a href="#" class="btn btn-white">My Works</a>
-                                    </div>
+                                    <!-- Banner Content End -->
                                 </div>
-                                <!-- Banner Content End -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </section>
         <!-- Banner Section End -->
 
         <!-- About Section Start -->
-        <section id="aboutme" class="section pt--100 pb--40">
+        <section id="aboutme" class="section pt--100 pb--40" data-overlay="0.95">
             <div class="container">
                 <!-- Section Title Start -->
                 <div class="section--title pb--60 text-center">
-                    <h2 class="h2 text-uppercase">About Me</h2>
+                    <h2 class="h2 text-uppercase text-white">About Me</h2>
                 </div>
                 <!-- Section Title End -->
 
@@ -157,7 +155,7 @@
                     <div class="col-md-6 pb--60">
                         <!-- Image Block Start -->
                         <div class="img--block">
-                            <img src="img/about-img/01.jpg" alt="">
+                            <img src="./img/bio-img2.png" alt="">
                         </div>
                         <!-- Image Block End -->
                     </div>
@@ -166,15 +164,11 @@
                         <!-- About Block Start -->
                         <div class="about--block">
                             <div class="title">
-                                <h2 class="h4 fw--700 text-uppercase">Personal Details</h2>
+                                <h2 class="h4 fw--700 text-uppercase text-white">Personal Details</h2>
                             </div>
 
-                            <div class="details pt--30 text-dark">
+                            <div class="details pt--30 text-white">
                                 <p>Duis aute dolor sit amet, consectetur adipisicing elit. Facere soluta, totam nihil minima, recusandae sapiente saepe provident ullam itaque nemo, beatae minus ratione asperiores aliquid vitae, debitis sint.</p>
-                            </div>
-
-                            <div class="details pt--30">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ea aliquid nostrum rem. Asperiores molestiae magni obcaecati aliquam quam aliquid reiciendis corrupti excepturi perferendis ab aut, inventore sunt hic iusto.</p>
                             </div>
 
                             <div class="info pt--50">
@@ -182,49 +176,36 @@
                                     <tbody>
                                         <tr>
                                             <th>
-                                                <i class="fa fa-calendar"></i>
-                                                <span>Brithday</span>
+                                                <i class="fa fa-calendar text-white"></i>
+                                                <span class="text-white">Brithday</span>
                                             </th>
-                                            <td>12/10/1990</td>
+                                            <td class="text-white">12/10/1990</td>
                                         </tr>
                                         <tr>
                                             <th>
-                                                <i class="fa fa-phone"></i>
-                                                <span>Phone</span>
+                                                <i class="fa fa-phone text-white"></i>
+                                                <span class="text-white">Phone</span>
                                             </th>
-                                            <td><a href="tel:+123123123456" class="btn-link">(+123) 123 123456</a></td>
+                                            <td class="text-white"><a href="tel:+123123123456" class="btn-link">(+123) 123 123456</a></td>
                                         </tr>
                                         <tr>
                                             <th>
-                                                <i class="fa fa-envelope"></i>
-                                                <span>Email</span>
+                                                <i class="fa fa-envelope text-white"></i>
+                                                <span class="text-white">Email</span>
                                             </th>
-                                            <td><a href="mailto:john@example.com" class="btn-link">john@example.com</a></td>
+                                            <td class="text-white"><a href="mailto:badhon@stacklearner.com" target="_blank" class="btn-link">badhon@stacklearner.com</a></td>
                                         </tr>
-                                        <tr>
-                                            <th>
-                                                <i class="fa fa-skype"></i>
-                                                <span>Skype</span>
-                                            </th>
-                                            <td>john_doe</td>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <i class="fa fa-globe"></i>
-                                                <span>Website</span>
-                                            </th>
-                                            <td><a href="www.johndoe.com" class="btn-link">www.johndoe.com</a></td>
-                                        </tr>
+                                        
                                     </tbody>
                                 </table>
                             </div>
 
-                            <div class="social text-dark pt--30">
+                            <div class="social text-white pt--30">
                                 <ul class="nav">
-                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-google-plus"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
                                 </ul>
                             </div>
 
@@ -240,11 +221,11 @@
         <!-- About Section End -->
 
         <!-- Services Section Start -->
-        <section id="services" class="section pt--100 pb--40 bg-light">
+        <section id="services" class="section pt--100 pb--40" data-overlay="0.95">
             <div class="container">
                 <!-- Section Title Start -->
                 <div class="section--title pb--60 text-center">
-                    <h2 class="h2 text-uppercase">Services I Offer</h2>
+                    <h2 class="h2 text-uppercase text-white">Services I Offer</h2>
                 </div>
                 <!-- Section Title End -->
 
@@ -253,7 +234,7 @@
                         <!-- Service Block Start -->
                         <div class="service--block">
                             <div class="icon">
-                                <i class="fa fa-heart-o"></i>
+                                <i class="fas fa-heart"></i>
                             </div>
 
                             <div class="title">
@@ -326,21 +307,21 @@
         <!-- Services Section End -->
 
         <!-- Portfolio Section Start -->
-        <section id="portfolio" class="section pt--100 pb--40">
+        <section id="portfolio" class="section pt--100 pb--40" data-overlay="0.95">
             <div class="container">
                 <!-- Section Title Start -->
                 <div class="section--title pb--60 text-center">
-                    <h2 class="h2 text-uppercase">Portfolio</h2>
+                    <h2 class="h2 text-uppercase text-white">Portfolio</h2>
                 </div>
                 <!-- Section Title End -->
 
                 <!-- Portfolio Filter Menu Start -->
                 <div class="portfolio--filter-menu pb--50">
                     <ul class="nav">
-                        <li data-target="*" class="active">All Works</li>
-                        <li data-target="illustration">Illustration</li>
-                        <li data-target="ui-design">UI Design</li>
-                        <li data-target="branding">Branding Design</li>
+                        <li data-target="*" class="active text-white">All Works</li>
+                        <li data-target="illustration" class="text-white">Illustration</li>
+                        <li data-target="ui-design" class="text-white">UI Design</li>
+                        <li data-target="branding" class="text-white">Branding Design</li>
                     </ul>
                 </div>
                 <!-- Portfolio Filter Menu End -->
@@ -497,7 +478,7 @@
         <!-- Portfolio Section End -->
 
         <!-- Call To Action Start -->
-        <section class="section pt--100 pb--100" data-bg-parallax="img/call-to-action-img/bg.jpg" data-overlay="0.7">
+        <section class="section pt--100 pb--100"  data-overlay="0.95">
             <div class="container">
                 <!-- Call To Action Block Start -->
                 <div class="cta--block text-center">
@@ -519,21 +500,21 @@
         <!-- Call To Action End -->
 
         <!-- Resume Section Start -->
-        <section id="resume" class="section pt--100 pb--100">
+        <section id="resume" class="section pt--100 pb--100" data-overlay="0.95">
             <div class="container">
                 <!-- Section Title Start -->
                 <div class="section--title pb--60 text-center">
-                    <h2 class="h2 text-uppercase">My Resume</h2>
+                    <h2 class="h2 text-uppercase text-white">My Resume</h2>
                 </div>
                 <!-- Section Title End -->
 
                 <!-- Timeline Block Start -->
                 <div class="timeline--block">
                     <div class="title">
-                        <h3 class="h5">Education</h3>
+                        <h3 class="text-center text-white">Education</h3>
                     </div>
 
-                    <div class="sub-title">
+                    <div class="sub-title text-white">
                         <p class="fs--16">Knowledge is power. Information is liberating. Eduction is the premise of progress, in every society, in every family.</p>
                     </div>
 
@@ -668,15 +649,15 @@
         <!-- Resume Section End -->
 
         <!-- Experience Section Start -->
-        <section class="section pt--100 pb--100 bg-light">
+        <section class="section pt--100 pb--100" data-overlay="0.95">
             <div class="container">
                 <!-- Timeline Block Start -->
                 <div class="timeline--block">
-                    <div class="title">
-                        <h3 class="h5">Experience</h3>
+                    <div class="title text-center">
+                        <h3 class="text-white">Experience</h3>
                     </div>
 
-                    <div class="sub-title">
+                    <div class="sub-title text-white">
                         <p class="fs--16">No matter how long you train someone to be brave, you never know if they are not until something real happens.</p>
                     </div>
 
@@ -811,7 +792,7 @@
         <!-- Experience Section End -->
 
         <!-- Skills Section Start -->
-        <section id="skills" class="section pt--100 pb--40" data-bg-img="img/skills-img/bg.jpg" data-overlay="0.7">
+        <section id="skills" class="section pt--100 pb--40" data-overlay="0.95">
             <div class="container">
                 <!-- Section Title Start -->
                 <div class="section--title pb--60 text-center">
@@ -954,381 +935,14 @@
         </section>
         <!-- Skills Section End -->
 
-        <!-- Pricing Section Start -->
-        <section id="pricing" class="section pt--100 pb--40 bg-light">
-            <div class="container">
-                <!-- Section Title Start -->
-                <div class="section--title pb--60 text-center">
-                    <h2 class="h2 text-uppercase">Pricing Plan</h2>
-                </div>
-                <!-- Section Title End -->
 
-                <div class="row AdjustRow">
-                    <div class="col-md-4 col-xs-12 pb--60">
-                        <!-- Pricing Item Start -->
-                        <div class="pricing--item">
-                            <div class="pricing--header bg-primary">
-                                <div class="plan">
-                                    <h3 class="h3 text-primary">Starter</h3>
-                                </div>
 
-                                <div class="price ff--primary">
-                                    <p>Form <span>$50</span></p>
-                                </div>
-                            </div>
 
-                            <div class="pricing--features fs--16 ff--primary">
-                                <ul class="nav">
-                                    <li>Web Design Service</li>
-                                    <li>Web Development Service</li>
-                                    <li>Graphic Design Service</li>
-                                    <li>SEO Service</li>
-                                </ul>
-                            </div>
 
-                            <div class="pricing--action">
-                                <a href="#" class="btn btn-primary">Order Now</a>
-                            </div>
-                        </div>
-                        <!-- Pricing Item End -->
-                    </div>
 
-                    <div class="col-md-4 col-xs-12 pb--60">
-                        <!-- Pricing Item Start -->
-                        <div class="pricing--item">
-                            <div class="pricing--header bg-primary">
-                                <div class="plan">
-                                    <h3 class="h3 text-primary">Starter</h3>
-                                </div>
-
-                                <div class="price ff--primary">
-                                    <p>Form <span>$150</span></p>
-                                </div>
-                            </div>
-
-                            <div class="pricing--features fs--16 ff--primary">
-                                <ul class="nav">
-                                    <li>Web Design Service</li>
-                                    <li>Web Development Service</li>
-                                    <li>Graphic Design Service</li>
-                                    <li>SEO Service</li>
-                                </ul>
-                            </div>
-
-                            <div class="pricing--action">
-                                <a href="#" class="btn btn-primary">Order Now</a>
-                            </div>
-                        </div>
-                        <!-- Pricing Item End -->
-                    </div>
-
-                    <div class="col-md-4 col-xs-12 pb--60">
-                        <!-- Pricing Item Start -->
-                        <div class="pricing--item">
-                            <div class="pricing--header bg-primary">
-                                <div class="plan">
-                                    <h3 class="h3 text-primary">Starter</h3>
-                                </div>
-
-                                <div class="price ff--primary">
-                                    <p>Form <span>$250</span></p>
-                                </div>
-                            </div>
-
-                            <div class="pricing--features fs--16 ff--primary">
-                                <ul class="nav">
-                                    <li>Web Design Service</li>
-                                    <li>Web Development Service</li>
-                                    <li>Graphic Design Service</li>
-                                    <li>SEO Service</li>
-                                </ul>
-                            </div>
-
-                            <div class="pricing--action">
-                                <a href="#" class="btn btn-primary">Order Now</a>
-                            </div>
-                        </div>
-                        <!-- Pricing Item End -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Pricing Section End -->
-
-        <!-- Team Section Start -->
-        <section id="team" class="section pt--100 pb--40">
-            <div class="container">
-                <!-- Section Title Start -->
-                <div class="section--title pb--60 text-center">
-                    <h2 class="h2 text-uppercase">Meet My Team</h2>
-                </div>
-                <!-- Section Title End -->
-
-                <div class="row AdjustRow">
-                    <div class="col-md-4 col-xs-12 pb--60">
-                        <!-- Team Member Item Start -->
-                        <div class="team--member" data-scroll-reveal="bottom">
-                            <div class="img">
-                                <img src="img/team-img/member-01.jpg" alt="">
-                            </div>
-
-                            <div class="caption">
-                                <div class="vc--parent">
-                                    <div class="vc--child">
-                                        <div class="name">
-                                            <h3 class="h3 fw--400">Mike Jones</h3>
-                                        </div>
-
-                                        <div class="company ff--primary">
-                                            <p>ThemeLooks</p>
-                                        </div>
-
-                                        <div class="social">
-                                            <ul class="nav">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Team Member Item End -->
-                    </div>
-
-                    <div class="col-md-4 col-xs-12 pb--60">
-                        <!-- Team Member Item Start -->
-                        <div class="team--member" data-scroll-reveal="bottom">
-                            <div class="img">
-                                <img src="img/team-img/member-02.jpg" alt="">
-                            </div>
-
-                            <div class="caption">
-                                <div class="vc--parent">
-                                    <div class="vc--child">
-                                        <div class="name">
-                                            <h3 class="h3 fw--400">Jack Roberts</h3>
-                                        </div>
-
-                                        <div class="company ff--primary">
-                                            <p>ThemeLooks</p>
-                                        </div>
-
-                                        <div class="social">
-                                            <ul class="nav">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Team Member Item End -->
-                    </div>
-
-                    <div class="col-md-4 col-xs-12 pb--60">
-                        <!-- Team Member Item Start -->
-                        <div class="team--member" data-scroll-reveal="bottom">
-                            <div class="img">
-                                <img src="img/team-img/member-03.jpg" alt="">
-                            </div>
-
-                            <div class="caption">
-                                <div class="vc--parent">
-                                    <div class="vc--child">
-                                        <div class="name">
-                                            <h3 class="h3 fw--400">Dennis Murray</h3>
-                                        </div>
-
-                                        <div class="company ff--primary">
-                                            <p>ThemeLooks</p>
-                                        </div>
-
-                                        <div class="social">
-                                            <ul class="nav">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Team Member Item End -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Team Section End -->
-
-        <!-- Blog Section Start -->
-        <section id="blog" class="section pt--100 pb--40 bg-light">
-            <div class="container">
-                <!-- Section Title Start -->
-                <div class="section--title pb--60 text-center">
-                    <h2 class="h2 text-uppercase">Blog &amp; News</h2>
-                </div>
-                <!-- Section Title End -->
-
-                <div class="row AdjustRow">
-                    <div class="col-md-4 col-xs-12 pb--60">
-                        <!-- Post Item Start -->
-                        <div class="post--item">
-                            <!-- Post Image Start -->
-                            <div class="post--img">
-                                <a href="blog-details.html"><img src="img/blog-img/post-item-01.jpg" alt=""></a>
-
-                                <a href="#" class="date">25 Jan 2017</a>
-                            </div>
-                            <!-- Post Image End -->
-
-                            <!-- Post Title Start -->
-                            <div class="post--title text-uppercase">
-                                <h3 class="h3 fs--22">
-                                    <a href="blog-details.html" class="btn-link">Eiusmod tempor incididunt ut labore et dolor menna aliqua</a>
-                                </h3>
-                            </div>
-                            <!-- Post Title End -->
-
-                            <!-- Post Excerpt Start -->
-                            <div class="post--excerpt">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dignissimos molestiae voluptates ullam dolor mollitia quos commodi...</p>
-                            </div>
-                            <!-- Post Excerpt End -->
-
-                            <!-- Post Action Start -->
-                            <div class="post--action text-uppercase">
-                                <a href="blog-details.html" class="btn-link">Read More<i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                            <!-- Post Action End -->
-                        </div>
-                        <!-- Post Item End -->
-                    </div>
-
-                    <div class="col-md-4 col-xs-12 pb--60">
-                        <!-- Post Item Start -->
-                        <div class="post--item">
-                            <!-- Post Image Start -->
-                            <div class="post--img">
-                                <a href="blog-details.html"><img src="img/blog-img/post-item-02.jpg" alt=""></a>
-
-                                <a href="#" class="date">25 Jan 2017</a>
-                            </div>
-                            <!-- Post Image End -->
-
-                            <!-- Post Title Start -->
-                            <div class="post--title text-uppercase">
-                                <h3 class="h3 fs--22">
-                                    <a href="blog-details.html" class="btn-link">Eiusmod tempor incididunt ut labore et dolor menna aliqua</a>
-                                </h3>
-                            </div>
-                            <!-- Post Title End -->
-
-                            <!-- Post Excerpt Start -->
-                            <div class="post--excerpt">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dignissimos molestiae voluptates ullam dolor mollitia quos commodi...</p>
-                            </div>
-                            <!-- Post Excerpt End -->
-
-                            <!-- Post Action Start -->
-                            <div class="post--action text-uppercase">
-                                <a href="blog-details.html" class="btn-link">Read More<i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                            <!-- Post Action End -->
-                        </div>
-                        <!-- Post Item End -->
-                    </div>
-
-                    <div class="col-md-4 col-xs-12 pb--60">
-                        <!-- Post Item Start -->
-                        <div class="post--item">
-                            <!-- Post Image Start -->
-                            <div class="post--img">
-                                <a href="blog-details.html"><img src="img/blog-img/post-item-03.jpg" alt=""></a>
-
-                                <a href="#" class="date">25 Jan 2017</a>
-                            </div>
-                            <!-- Post Image End -->
-
-                            <!-- Post Title Start -->
-                            <div class="post--title text-uppercase">
-                                <h3 class="h3 fs--22">
-                                    <a href="blog-details.html" class="btn-link">Eiusmod tempor incididunt ut labore et dolor menna aliqua</a>
-                                </h3>
-                            </div>
-                            <!-- Post Title End -->
-
-                            <!-- Post Excerpt Start -->
-                            <div class="post--excerpt">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dignissimos molestiae voluptates ullam dolor mollitia quos commodi...</p>
-                            </div>
-                            <!-- Post Excerpt End -->
-
-                            <!-- Post Action Start -->
-                            <div class="post--action text-uppercase">
-                                <a href="blog-details.html" class="btn-link">Read More<i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                            <!-- Post Action End -->
-                        </div>
-                        <!-- Post Item End -->
-                    </div>
-                </div>
-
-                <!-- Section Footer Start -->
-                <div class="section--footer text-center pb--60">
-                    <a href="blog.html" class="btn btn-primary">View All Posts</a>
-                </div>
-                <!-- Section Footer End -->
-            </div>
-        </section>
-        <!-- Blog Section End -->
-
-        <!-- Clients Section Start -->
-        <section id="clients" class="section pt--80 pb--20">
-            <div class="container">
-                <div class="row" data-scroll-reveal="group">
-                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
-                        <!-- Client Item Start -->
-                        <div class="client--item">
-                            <img src="img/brands-img/01.png" alt="" class="center-block">
-                        </div>
-                        <!-- Client Item End -->
-                    </div>
-
-                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
-                        <!-- Client Item Start -->
-                        <div class="client--item">
-                            <img src="img/brands-img/02.png" alt="" class="center-block">
-                        </div>
-                        <!-- Client Item End -->
-                    </div>
-
-                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
-                        <!-- Client Item Start -->
-                        <div class="client--item">
-                            <img src="img/brands-img/03.png" alt="" class="center-block">
-                        </div>
-                        <!-- Client Item End -->
-                    </div>
-
-                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
-                        <!-- Client Item Start -->
-                        <div class="client--item">
-                            <img src="img/brands-img/04.png" alt="" class="center-block">
-                        </div>
-                        <!-- Client Item End -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Clients Section End -->
 
         <!-- Testimonial Section Start -->
-        <section id="testimonial" class="section pt--90 pb--90" data-bg-parallax="img/testimonial-img/bg.jpg" data-overlay="0.5">
+        <section id="testimonial" class="section pt--90 pb--90" data-overlay="0.95">
             <div class="container">
                 <!-- Testimonial Slider Start -->
                 <div class="testimonial--slider owl-carousel" data-owl-dots="true">
@@ -1380,11 +994,11 @@
         <!-- Testimonial Section End -->
 
         <!-- Contact Section Start -->
-        <section id="contact" class="section pt--100 pb--40 bg-light">
+        <section id="contact" class="section pt--100 pb--40 bg-light" data-overlay="0.95">
             <div class="container">
                 <!-- Section Title Start -->
                 <div class="section--title pb--60 text-center">
-                    <h2 class="h2 text-uppercase">Contact With Me</h2>
+                    <h2 class="h2 text-uppercase text-white">Contact With Me</h2>
                 </div>
                 <!-- Section Title End -->
 
@@ -1397,11 +1011,11 @@
                             </div>
 
                             <div class="title text-uppercase">
-                                <h3 class="h4">Call Me</h3>
+                                <h3 class="h4 text-white">Call Me</h3>
                             </div>
 
-                            <div class="desc">
-                                <p><a href="tel:+123123123456" class="btn-link">(+123) 123 123456</a>, <a href="tel:+123123123456" class="btn-link">(+123) 123 123456</a></p>
+                            <div class="desc ">
+                                <p><a href="tel:+123123123456" class="text-white btn-link">(+123) 123 123456</a>, <a href="tel:+123123123456" class="text-white btn-link">(+123) 123 123456</a></p>
                             </div>
                         </div>
                         <!-- Contact Info Block End -->
@@ -1415,11 +1029,11 @@
                             </div>
 
                             <div class="title text-uppercase">
-                                <h3 class="h4">Visit Me</h3>
+                                <h3 class="h4 text-white">Visit Me</h3>
                             </div>
 
                             <div class="desc">
-                                <p>123 Lorem St., Ismailia, Egypt</p>
+                                <p class="text-white">123 Lorem St., Ismailia, Egypt</p>
                             </div>
                         </div>
                         <!-- Contact Info Block End -->
@@ -1429,15 +1043,15 @@
                         <!-- Contact Info Block Start -->
                         <div class="contact--info-block" data-scroll-reveal="bottom">
                             <div class="icon">
-                                <i class="fa fa-envelope-o"></i>
+                                <i class="fas fa-envelope"></i>
                             </div>
 
                             <div class="title text-uppercase">
-                                <h3 class="h4">Send A Message</h3>
+                                <h3 class="h4 text-white">Send A Message</h3>
                             </div>
 
                             <div class="desc">
-                                <p><a href="mailto:john@example.com" class="btn-link">john@example.com</a></p>
+                                <p><a href="mailto:badhon@stacklearner.com" class="text-white btn-link">badhon@stacklearner.com</a></p>
                             </div>
                         </div>
                         <!-- Contact Info Block End -->
@@ -1445,12 +1059,12 @@
                 </div>
 
                 <!-- Contact Form Start -->
-                <div class="contact--form pb--60" data-form="ajax">
+                <!-- <div class="contact--form pb--60" data-form="ajax">
                     <div class="title text-center text-uppercase pb--30">
                         <h3 class="h4">You can drop me a line here</h3>
                     </div>
 
-                    <form action="forms/contact-form.php">
+                    <form action="#">
                         <div class="status"></div>
 
                         <div class="row">
@@ -1483,38 +1097,37 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> -->
                 <!-- Contact Form End -->
             </div>
         </section>
         <!-- Contact Section End -->
 
         <!-- Footer Section Start -->
-        <footer class="footer--section pt--100 pb--100 text-center">
-            <div class="container">
-                <!-- Footer Social Start -->
-                <div class="footer--social">
+        <!-- <footer class="footer--section pt--100 pb--100 text-center">
+           <div class="container">
+                
+               <div class="footer--social">
                     <ul class="nav" data-scroll-reveal="group">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
-                <!-- Footer Social End -->
+                 
 
-                <!-- Copyright Text Start -->
-                <p class="copyright--text fs--16 ff--primary">Copyright &copy; 2017 <a href="#">John Doe</a>. All Rights Reserved.</p>
-                <!-- Copyright Text End -->
+               <p class="copyright--text fs--16 ff--primary">Copyright &copy; 2017 <a href="#">John Doe</a>. All Rights Reserved.</p> 
+                
             </div>
-        </footer>
+        </footer> -->
         <!-- Footer Section End -->
     </div>
     <!-- Wrapper End -->
 
     <!-- Back To Top Button Start -->
     <div id="backToTop">
-        <a href="#" class="btn btn-default active"><i class="fa fa-long-arrow-up"></i></a>
+        <a href="#" class="btn btn-default active"><i class="fas fa-chevron-up"></i></a>
     </div>
     <!-- Back To Top Button End -->
 
