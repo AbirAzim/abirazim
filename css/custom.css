@@ -1,0 +1,97 @@
+/*
+
+[Custom Stylesheet]
+
+Project     : JD - Responsive Personal vCard / CV / Resume Template
+Version     : 1.0
+Author      : ThemeLooks
+Author URI  : https://themeforest.net/user/themelooks
+
+You can write your custom css styles in this file...
+
+*/
+
+.section--video{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+
+.section--video video{
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    filter:blur(3px)
+}
+
+.section--video::after{
+    content:'';
+    position: absolute;
+    background:black;
+    width:100%;
+    height:100.2%;
+    opacity:90%;
+    top:0;
+    left:0;
+}
+
+.banner--content
+{
+    position: relative;
+    z-index:1;
+}
+.desc{
+    font-weight: bold;
+}
+.details{
+    font-weight:bold;
+    font-size:1.7rem;
+}
+
+.font-size-social-link {
+    font-size: 150%;
+}
+
+blockquote {
+
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+
+  .icon-custom {
+    background-color: transparent;
+    max-width: 60px;
+    margin: 0 auto 23px;
+    color: #000;
+    padding-top: 2px;
+    font-size: 22px;
+    line-height: 56px;
+    text-align: center;
+    -webkit-transition: background-color .55s ease-in-out;
+    transition: background-color .55s ease-in-out;
+  }
+
+  .service--block:hover .icon-custom {
+    background-color: transparent;
+    color: rgb(0, 255, 0);
+}
