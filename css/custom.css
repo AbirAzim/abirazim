@@ -52,6 +52,7 @@ You can write your custom css styles in this file...
   text-align: center;
   white-space: nowrap;
   overflow: hidden;transform: translateY(-50%);
+  text-transform: lowercase;
 }
 
 .anim-typewriter {
