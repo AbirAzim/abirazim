@@ -111,7 +111,7 @@ body::-webkit-scrollbar {
   }
    
   body::-webkit-scrollbar-track {
-    background-color: #000;
+    background-color: rgb(0, 255, 0);;
   }
    
   body::-webkit-scrollbar-thumb {
@@ -647,7 +647,7 @@ select.form-control {
     width: 30px;
     height: 30px;
     margin: -15px auto 0;
-    background-color: #fff;
+    background-color: rgb(0, 211, 28);
     -webkit-animation: preloaderRotate 1.2s infinite ease-in-out;
             animation: preloaderRotate 1.2s infinite ease-in-out;
 }
